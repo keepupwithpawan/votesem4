@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #041130;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position:relative;
+    margin-top: 1%;
+}
+
+/* Logo */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    margin: 3px 6px;
+    height: 70px;
+    width: 140px;
+    cursor: pointer;
+}
+
+/* List Items */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    background-color: black;
+}
+
+#navbar ul li a{
+    color: antiquewhite;
+    background-color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
+h1{
+    margin-top: 60px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#p1{  
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+}
+
+#p2{  
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: beige;
+}
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+/* Footer */
+#footer{
+    position: relative;
+    height: 40px;
+    margin-top: 60px;
+}
+
+#footerp p{
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 20px;
+    margin-top: 220px;
+}
+
+i{
+    background-color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <script src="https://kit.fontawesome.com/26ef1a8bee.js" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="adminlogin.css">
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" onclick="location.href='http://127.0.0.1:5500/welcome.html#'">
+        </div>
+
+        <ul>
+            <li class="item"><a href="http://127.0.0.1:5500/about.html">About</a></li>
+            <li class="item"><a href="http://127.0.0.1:5500/welcome.html">Home</a></li>
+            <li class="item"><a href="http://127.0.0.1:5500/help.html">Help</a></li>
+        </ul> 
+    </nav>
+
+    <form>
+        <label for="emailtext">
+            Admin ID 
+        </label>
+        <input type="text" id="emailtext" name="emailtext" required minlength="10" maxlength="30">
+    
+        <label for="passtext">
+            Password
+        </label>
+    
+        <input type="password" id="passtext" name="passtext" required minlength="6" maxlength="15">
+    
+        </form>
+        <button class="login" onclick="checkIDandPassword()">LOGIN</button>
+
+    <div id="footer">
+        <p>
+        Contact -
+        <a href="https://www.linkedin.com/school/sies-graduate-school-of-technology"><i class="fa-brands fa-linkedin"></i></a>
+
+        <a href="https://www.facebook.com/SIESGST/"><i class="fa-brands fa-facebook"></i></a>
+
+        <a href="https://www.instagram.com/siesgstevents/"><i class="fa-brands fa-instagram"></i></a>
+        </p>
+       
+    </footer>
+    <script src="adminlogin.js"></script>
+</body>
+</html>
